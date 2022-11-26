@@ -17,7 +17,7 @@ if MY_PASS:
             buttonz=ReplyKeyboardMarkup(
             [
                 ["start⚡️","help📚","login🔑","DC"],
-                ["Subscribe ❤️","ping📡","status📊","maintainers😎"]
+                ["Join❤️","ping📡","status📊","maintainers😎"]
                         
             ],
             resize_keyboard=True
@@ -26,7 +26,7 @@ else:
             buttonz=ReplyKeyboardMarkup(
             [
                 ["start⚡️","help📚","DC"],
-                ["Subscribe ❤️","ping📡","status📊","maintainers😎"]
+                ["join ❤️","ping📡","status📊","maintainers😎"]
                         
             ],
             resize_keyboard=True
@@ -70,7 +70,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/greymatters_bots_discussion'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>𝕻𝖔𝖒𝖊𝖙𝖍𝖎𝖓𝖌 𝖜𝖊𝖓𝖙 𝖜𝖗𝖔𝖓𝖌</i> <b> <a href='https://t.me/DK_Gru'>𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 </a></b>",
                 
                 disable_web_page_preview=True)
             return
