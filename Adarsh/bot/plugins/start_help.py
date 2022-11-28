@@ -56,11 +56,11 @@ async def start(b, m):
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
                 photo="https://te.legra.ph/file/761c78ced1b158a8f9440.jpg",
-                caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
+                caption="<i>𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙻 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("ᴊᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
